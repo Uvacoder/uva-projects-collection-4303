@@ -3,14 +3,14 @@ import Image from 'next/image'
 import { Text, Card, Spacer, Row, Col, Grid, Toggle } from '@geist-ui/react'
 
 import Meta from '../components/meta'
-import Video from '../components/mux'
+//import Video from '../components/mux'
 import Author from '../components/author'
 import projects from '../data.json'
 
 const Header = () => (
   <Col component="header" className="header" justify="center" align="center">
-    <Video
-      mux="PPqmIRFuCQxjJk00M53yoBnNhj02HwaM6zzEhBndLbc300"
+    <Image
+      img src="https://github.com/Uvacoder/sites-collection-test/blob/main/public/card.jpg"
       aria-label="Time lapse of Lachlan coding a website, filmed from behind the desk"
     />
     <Spacer y={2} />
@@ -47,7 +47,7 @@ const Header = () => (
         padding: 0 6pt;
         opacity: 0.875;
       }
-      .header video {
+      .header image {
         z-index: 0;
         position: absolute;
         object-fit: cover;

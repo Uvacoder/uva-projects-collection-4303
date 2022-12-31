@@ -10,7 +10,7 @@
     "start": "next"
   },
   "dependencies": {
-    "@geist-ui/react": "^2.1.0-canary.2",
+    "@geist-ui/react": "^2.2.5",
     "@hackclub/markdown": "^0.0.1-alpha.0",
     "hls.js": "^0.14.17",
     "lodash": "^4.17.20",
